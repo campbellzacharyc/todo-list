@@ -1,1 +1,1 @@
-# todo-list
+This todo list is a JavaScript project made using X as part of The Odin Project cirriculum. 
