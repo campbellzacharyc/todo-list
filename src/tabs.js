@@ -32,4 +32,4 @@ function clearContent() {
     }
 }
 
-export default createTabs;
+// export default createTabs;
