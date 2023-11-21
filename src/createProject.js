@@ -1,4 +1,4 @@
-const createProject = () => {
+export const createProject = () => {
     // add todoList to project, multiple todos (on todoList) on each project. 
     let project = document.querySelector(".project");
     project.innerHTML = '';
@@ -8,9 +8,16 @@ const createProject = () => {
         projectElement.setAttribute("class", "project-card");
         projectElement.innerHTML = `
         <div class="card-header">
-            <h3 class="
+            <h3 class="title">${title}</h3>
+        </div>
+        <div class="card-body">
+            <div class="dueDate">${dueDate}</div>
+            <img class="magnify"/>
+            <img class="trash"/>
+        </div>
+        <div class="footer">
+            <img class="addTodo"/>
+            <img class="delete"/> 
         `
     }
 }
-
-export default createProject

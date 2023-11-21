@@ -1,1 +1,1 @@
-This todo list is a JavaScript project made using X as part of The Odin Project cirriculum. 
+This todo list is a JavaScript project made using Webpack as part of The Odin Project cirriculum. 
