@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("is this working??"),function(){const t=document.querySelector("#content"),e=document.createElement("h1");e.textContent="todo list",t.appendChild(e)}()})();
+(()=>{"use strict";var e={};(e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})})(e),console.log("is this working??"),(0,e.default)()})();
